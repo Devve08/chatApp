@@ -1,4 +1,7 @@
 body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +14,129 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app_container{
+  width: 100%;
+}
+
+
+.chat_box{
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin: 3rem auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.chat_box .send_box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto;
+}
+
+.chat_box .send_box input{
+  padding: .3rem;
+  width: 90%;
+  font-size: 1.2rem;
+  color: #4a78fd;
+  border-radius: 1rem;
+  outline: none;
+  border: 3px solid #4a78fd;
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.chat_box .send_box div{
+  padding: 1rem;
+  background-color:#4a78fd;
+  color: white;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.message{
+  max-width: 50%;
+  min-height: 25vh;
+}
+
+.you{
+  margin: 0 0 0 50%;
+}
+
+
+.chat_text_box{
+  background-color: #7c9dec;
+  display: flex;
+  justify-self: start;
+  max-width: 100%;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+}
+
+
+.chat_text{
+  padding: 1rem;
+  word-wrap: break-word;
+  color: #f9f9f9;
+}
+
+.sender{
+  padding: 1.3rem;
+  font-size: .8rem;
+  font-weight: 500;
+  color: #7c9dec;
+}
+
+.sender_you{
+  padding: 18rem;
+}
+
+.chat_date{
+  padding:.2rem 1rem;
+  font-size: .8rem;
+  display: flex;
+  justify-content: end;
+  width: 85%;
+  color: #f9f9f9;
+}
+
+.chat_date span{
+  padding: .1rem;
+}
+
+.title_chat{
+  width: 100%;
+  display: flex;
+ justify-content: center;
+ align-content: center;
+ color: #7c9dec;
+ margin-bottom: 2rem;
+}
+.title_chat h1{
+  display: flex;
+ justify-items: center;
+ align-items: center;
+}
+
+.circle{
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
